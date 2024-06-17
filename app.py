@@ -11,6 +11,9 @@ st.title("Data Visualization App")
 # Add a sidebar
 st.sidebar.subheader("Visualization Settings")
 
+st.set_page_config(page_title="DV1.0")
+
+
 # Setup file upload
 uploaded_file = st.sidebar.file_uploader(
                         label="Upload your CSV or Excel file. (200MB max)",
